@@ -1,6 +1,6 @@
 # Privacy Policy for AccidentGuide
 
-**Last Updated:** December 23, 2025
+**Last Updated:** December 24, 2024
 
 ## Introduction
 
@@ -19,10 +19,9 @@ When using AccidentGuide, you may voluntarily enter or generate the following in
 - **Accident Documentation:** Location data, photos of the scene, audio recordings, other driver's information, timestamps, and notes
 
 ### Information Collected Automatically
-To improve app stability and understand usage patterns, we use the following services:
+To improve app stability, we use the following service:
 
 - **Crash Reports:** When the app crashes, anonymous diagnostic information is sent to help us fix bugs and improve reliability
-- **Usage Analytics:** Anonymous data about how the app is used (which features are accessed, general usage patterns)
 
 This automatic collection does **not** include your personal accident data, photos, recordings, or any information you enter about yourself or others involved in accidents.
 
@@ -34,7 +33,7 @@ Your information is used to:
 2. **Generate Reports:** Create PDF reports you can share with insurance companies or law enforcement
 3. **Display Maps:** Show accident locations using Google Maps
 4. **Provide Emergency Numbers:** Display relevant emergency contact numbers based on your location
-5. **Improve the App:** Use anonymous crash reports and analytics to fix bugs and enhance features
+5. **Improve the App:** Use anonymous crash reports to fix bugs and enhance stability
 
 ## Data Storage and Security
 
@@ -49,12 +48,12 @@ AccidentGuide uses the following third-party services:
 | Service | Purpose | Data Shared |
 |---------|---------|-------------|
 | Google Maps SDK | Display maps and accident locations | Map tile requests, approximate location for map display |
-| Google Play Billing | Process premium subscription purchases | Payment handled entirely by Google |
+| Google Play Billing | Process premium purchases | Payment handled entirely by Google |
 | Firebase Crashlytics | Crash reporting and stability monitoring | Device model, OS version, crash logs, app state at time of crash (no personal data) |
-| Firebase Analytics | Anonymous usage analytics | App events, feature usage patterns, device info (no personal data) |
 
 We do **not** use:
-- Advertising networks
+- Advertising networks or advertising IDs
+- Analytics services that track user behavior
 - Social media SDKs
 - Any service that collects your personal accident data
 
@@ -63,23 +62,26 @@ We do **not** use:
 We do not sell, trade, or share your personal information with third parties. Your data is only shared when:
 
 - **You explicitly choose to share:** Using the share/export features to send reports to insurance companies, law enforcement, or others
-- **Anonymous crash/analytics data:** Sent automatically to Firebase to improve app stability (contains no personal information)
+- **Anonymous crash data:** Sent automatically to Firebase Crashlytics to improve app stability (contains no personal information)
 
 ## Permissions
 
 AccidentGuide requests the following permissions:
 
-- **Location:** To record accident locations and provide region-appropriate emergency numbers
-- **Camera:** To capture photos of the accident scene, vehicles, and documents
-- **Microphone:** To record audio notes describing the accident
+| Permission | Why We Need It |
+|------------|----------------|
+| **Location (Foreground Only)** | To record where the accident occurred and show relevant emergency numbers. We do NOT access your location in the background. |
+| **Camera** | To capture photos of the accident scene, vehicles, and documents |
+| **Microphone** | To record audio notes describing the accident |
+| **Photos/Media Access** | To import existing photos from your gallery when scanning documents |
 
-All permissions are used solely for accident documentation purposes.
+All permissions are used solely for accident documentation purposes. You can revoke any permission at any time in your device settings.
 
 ## Data Retention
 
 - **Your accident data** remains on your device until you delete it
 - **Uninstalling the app** removes all locally stored data
-- **Crash reports and analytics** are retained by Firebase according to their standard retention policies (typically 90 days for crash data)
+- **Crash reports** are retained by Firebase according to their standard retention policies (typically 90 days)
 
 ## Children's Privacy
 
@@ -94,7 +96,7 @@ You have the right to:
 
 ## Premium Features
 
-Premium subscriptions are processed through Google Play. Payment information is handled entirely by Google and is subject to Google's privacy policy.
+Premium features are available through a one-time purchase processed by Google Play. Payment information is handled entirely by Google and is subject to Google's privacy policy.
 
 ## Changes to This Policy
 
@@ -105,3 +107,18 @@ We may update this Privacy Policy from time to time. We will notify users of sig
 If you have questions about this Privacy Policy, please contact us at:
 
 **Email:** rany.albeg@gmail.com
+
+## Summary
+
+| Question | Answer |
+|----------|--------|
+| Do you collect my data? | No - all data stays on your device |
+| Do you sell my data? | No - we don't have access to it |
+| Do you use analytics? | No |
+| Do you show ads? | No |
+| Do you track my location in the background? | No - foreground only when app is open |
+| Can I delete my data? | Yes - anytime, directly in the app |
+
+---
+
+*This privacy policy is effective as of December 24, 2024*
